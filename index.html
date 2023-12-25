@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Silvia Rahma</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#sertification">Sertification</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Silvia Rahma</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#portofolio" onclick="toggleMenu()">Portofolio</a></li>
+          <li><a href="#sertification" onclick="toggleMenu()">Sertification</a></li>
+          <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profil.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Silvia Rahma</h1>
+        <p class="section__text__p2">AI/ML Enthusiast</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Silvia Rahma-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/silvia-rahma/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SilviaRahma10'"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/profil 2.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div> -->
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Saya mahasiswa semester akhir teknik informatika yang memiliki antusias tinggi dalam pengembangan teknologi informasi dengan kemampuan analisis yang kuat. Saya memiliki keahlian pemrograman web, implementasi artificial inteligence dan analisis data !
+            </p>
+          </div>
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Machine Learning</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />UIUX Design</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Undergraduate<br />Informatics Student</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Machine Learning Student</h2>
+            <h3>Studi Independent Bersetifikat</h3>
+            <p class="experience-desk-title">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</p>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Tensorflow Framework</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Machine Learning</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Deep Learning CNN</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Regression Linear</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Data Analytics</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Python Language Programming</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Software Developer</h2>
+            <h3>Intership</h3>
+            <p class="experience-desk-title">Lembaga Penjaminan Mutu dan Pengembangan Pembelajaran Universitas Bengkulu</p>
+ 
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>HTML</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>CSS</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Laravel</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>PHP</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Database Design</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>SQL</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Computer Lab Asistent</h2>
+            <h3>Part Time</h3>
+            <p class="experience-desk-title">Lab Komputer Universitas Bengkulu</p>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Data Structuring</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>SQL</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Mining Student</h2>
+            <h3>Kredensial Mikro Mahasiswa Indonesia</h3>
+            <p class="experience-desk-title">Universitas Nurul Jadid</p>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Python</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Data Mining</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Entry</h2>
+            <h3>Freelence</h3>
+            <p class="experience-desk-title"></p>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Excel</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Analisis</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section> -->
+    <section id="portofolio">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Portofolio</h1>
+
+        <section id="ML">
+          <nav id="desktop-nav">
+            <div>
+              <ul class="nav-links">
+                <li><a href="#ML">Machine Learning</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">AgroAI-Plant Diseases Classification</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-1.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+
+                <h4>Capstone Project Bangkit Academy</h3>
+                <p class="experience-desk-title">AgroAI merupakan aplikasi yang memiliki fitur utama identifikasi penyakit pada tanaman jagung, kentang, cabai, tomat, kentang dan teh berdasarkan gambar daun. Aplikasi tersebut menggunakan teknologi artificial intelligence yaitu pre-trained convolutional neural networks</p>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Ploeroe/AgroAI-ML'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/file/d/12o8efwPzVmBgyxA9zeKJJo1V4t1A5MGE/view?usp=drivesdk'"
+                  >
+                    Aplikasi
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">Ananlisis Performa Metode Vision Tranformer</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-2.png"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h4>Research</h3>
+                <p class="experience-desk-title">Studi Komparasi performa metode Vision TRanformer ( ViT-Base dan ViT-Large) dalam midentifikasi penyakit pada tanaman jagung, kentang, cabai, tomat, kentang dan teh berdasarkan gambar daun. Aplikasi tersebut menggunakan teknologi artificial intelligence yaitu pre-trained Vision Transfomer</p>
+
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/drive/folders/17yThVw5TKWvacls_Wu9Di7oSVi6wST81?usp=sharing'"
+                  >
+                    Code
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">Deteksi Penyakit Alzheimer</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-3.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h4>Research</h3>
+                <p class="experience-desk-title">Impementasi Algortima Pre-trained DenseNet201 untuk deteksi penyakit alzheimer. Project ini menggunakan teknologoi deep learning dan framework streamlit untuk deploy model</p>
+
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/SilviaRahma10/streamlit-model-deploy-solution-alzheimer-disease-classify/tree/main/model-deploy'"
+                  >
+                    Github
+                  </button>
+                
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">Rice Classification</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-4.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+
+                <h4>Research</h3>
+                  <p class="experience-desk-title">Impementasi Algortima Pre-trained InceptionV3 untuk klasifikasi jenis beras berdasarkan citra. Project ini menggunakan teknologoi deep learning dan framework streamlit untuk deploy model</p>
+                  <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/SilviaRahma10/streamlit-model-deploy-solution-rice-classification/tree/main/streamlit%20rice'"
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="SD">
+          <nav>
+            <div>
+              <ul class="nav-links">
+  
+                <li><a href="#SD">Software Developer</a></li>
+  
+              </ul>
+            </div>
+          </nav>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">Sistem Informasi Asisten Dosen Mata Kuliah Umum (MKU)</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-5.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+
+                <h4>Intership LPMPP Universitas Bengkulu </h3>
+                <p class="experience-desk-title">Sistem Informasi dan perekrutan asisten dosen mku pada Lembaga Penjaminan Mutu dan Pengembangan Pembelajaran Universitas Bengkulu. Teknologi yang diguanakn yaitu html, javascript, css, framework laravel, boostrap, dan bahasa pemrograman php</p>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/SilviaRahma10/sistem-infromasi-asdos-mku'"
+                  >
+                    Github
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+        <section id="UIUX">
+          <nav>
+            <div>
+              <ul class="nav-links">
+                <li><a href="#UIUX">UIUX Design</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">BotaniCare</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-6.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                  <p class="experience-desk-title">Design App BotaniCare sebagai solusi digital bagi petani dalam meningkatkan produktivita pertanian dan e-commerse produk pertanian. Design APP dibuat dengan teknologi Figma</p>
+                  <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://www.figma.com/file/dKtHmRM5KT0cUdIx6nLjnp/BotaniCare?type=design&mode=design&t=1jjSRsAkxfzaimeQ-0'"
+                  >
+                    Design
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">KitCat</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-7.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                  <p class="experience-desk-title">Design App KitCat sebagai solusi penyediaan servise grooming kucing, konsultasi kesehatan, dan e-commerce produk kebutuhan kucing. Design APP dibuat dengan teknologi Figma</p>
+                  <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://www.figma.com/file/poodS8y7iU1Vfdifvk50wQ/KITCAT-ETROF?type=design&node-id=0%3A1&mode=design&t=QgHKawf9kY9I8E2F-1'"
+                  >
+                    Design
+                  </button>
+                </div>
+              </div>
+
+              <div class="details-container color-container">
+                <h4 class="experience-sub-title project-title">Think.ing</h4>
+                <div class="article-container">
+                  <img
+                    src="./assets/project-8.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                  <p class="experience-desk-title">Design App KitCat sebagai solusi penyediaan servise grooming kucing, konsultasi kesehatan, dan e-commerce produk kebutuhan kucing. Design APP dibuat dengan teknologi Figma</p>
+                  <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://www.figma.com/file/1ffUyFGgjXUxPopChtt7A2/Think.ing?type=design&node-id=2%3A1778&mode=design&t=xbMYS5T6qU2yQJX7-1'"
+                  >
+                    Design
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+    
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a>silviarahma270201@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/silvia-rahma/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright 2023 Silvia Rahma. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
